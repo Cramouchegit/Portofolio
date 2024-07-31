@@ -1,7 +1,15 @@
 const projects = [
   {
+    title: "Website Online Store",
+    techTitle: "web (NextJS, TypeScript, TailwindCSS)",
+    description:
+      "Create a Online Store Website with NextJs + TypeScript, TailwindCSS and Database PostgreSQL.",
+    repoLink: "https://github.com/Cramouchegit/website-store-mabuchi",
+    demoLink: "https://website-store-mabuchi.vercel.app/",
+  },
+  {
     title: "Pokemon API",
-    techTitle: "web",
+    techTitle: "web (ReactJS, TailwindCSS)",
     description:
       "Creating a Pokemon Website with React Js Vite and the PokeApi API.",
     repoLink: "https://github.com/Cramouchegit/Pokemon-App",
@@ -9,7 +17,7 @@ const projects = [
   },
   {
     title: "Shopping List",
-    techTitle: "web app",
+    techTitle: "web app (ReactJS, CSS Module)",
     description:
       "Creating a Web App Shopping List and Counter state using React JS ( create-react-app ).",
     repoLink: "https://github.com/Cramouchegit/Shopping-List-React",
@@ -32,10 +40,17 @@ const projects = [
   },
   {
     title: "Web Personal",
-    techTitle: "Web (HTML, TAILWINDCSS, JS)",
+    techTitle: "Web (HTML, TailwindCSS, JS)",
     description: "Create a personal website using HTML, CSS and JS.",
     repoLink: "https://github.com/Cramouchegit/web-personalGirl",
     demoLink: "https://vallenixia.netlify.app/",
+  },
+  {
+    title: "Web Ai GroqAPI",
+    techTitle: "Web (ReactJS, TailwindCSS)",
+    description: "Create a Web Ai With AiGroq API website using ReactJS, TailwindCSS.",
+    repoLink: "https://github.com/Cramouchegit/Aigroq-in-Reactjs",
+    demoLink: "https://aigroq-mabuchi.vercel.app/",
   },
 ];
 
