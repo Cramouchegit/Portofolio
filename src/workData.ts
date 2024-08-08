@@ -24,6 +24,14 @@ const projects = [
     demoLink: "https://shopping-list-count.vercel.app/",
   },
   {
+    title: "GoCheck",
+    techTitle: "web app (ReactJS, Vite)",
+    description:
+      "Creating simple Notes with ReactJS + (Styling, State, Props).",
+    repoLink: "https://github.com/Cramouchegit/GoCheckList",
+    demoLink: "https://gochecklist.netlify.app",
+  },
+  {
     title: "Emoji Search App",
     techTitle: "Web App (ReactJs)",
     description: "Creating a Web App Emoji Searcher in React JS.",
