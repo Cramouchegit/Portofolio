@@ -16,12 +16,12 @@ const projects = [
     demoLink: "https://pokemon-app-api.vercel.app/",
   },
   {
-    title: "Shopping List",
-    techTitle: "web app (ReactJS, CSS Module)",
+    title: "Code Studio || Landing Page",
+    techTitle: "web (HTML, CSS, BOOTSTRAP5, JAVASCRIPT)",
     description:
-      "Creating a Web App Shopping List and Counter state using React JS ( create-react-app ).",
-    repoLink: "https://github.com/Cramouchegit/Shopping-List-React",
-    demoLink: "https://shopping-list-count.vercel.app/",
+      "Create a simple Code Studio Landing Page with HTML, CSS, JAVASCRIPT, BOOTSTRAP.",
+    repoLink: "https://github.com/Cramouchegit/LandingPage-CodeStudio",
+    demoLink: "https://codes-studio.netlify.app/",
   },
   {
     title: "GoCheck",
@@ -32,11 +32,11 @@ const projects = [
     demoLink: "https://gochecklist.netlify.app",
   },
   {
-    title: "Emoji Search App",
-    techTitle: "Web App (ReactJs)",
-    description: "Creating a Web App Emoji Searcher in React JS.",
-    repoLink: "https://github.com/Cramouchegit/Emoji-Searcher",
-    demoLink: "https://emoji-searcher-app.vercel.app/",
+    title: "Money Management",
+    techTitle: "Web App (ReactJs, Apexcharts, Bootstrap)",
+    description: "Membuat Aplikasi Berbasis Website Money Management Menggunakan React JS ( VITE ).",
+    repoLink: "https://github.com/Cramouchegit/Money-Management-App",
+    demoLink: "https://money-management-app-dev.vercel.app/",
   },
   {
     title: "Simple Music App",
