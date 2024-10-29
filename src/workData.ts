@@ -34,12 +34,8 @@ const projects = [
   {
     title: "Money Management",
     techTitle: "Web App (ReactJs, Apexcharts, Bootstrap)",
-<<<<<<< HEAD
     description:
       "Membuat Aplikasi Berbasis Website Money Management Menggunakan React JS ( VITE ).",
-=======
-    description: "Membuat Aplikasi Berbasis Website Money Management Menggunakan React JS ( VITE ).",
->>>>>>> a213b977ea6e537beb9d17938e2c375642e79fb2
     repoLink: "https://github.com/Cramouchegit/Money-Management-App",
     demoLink: "https://money-management-app-dev.vercel.app/",
   },
@@ -61,12 +57,8 @@ const projects = [
   {
     title: "Web Ai GroqAPI",
     techTitle: "Web (ReactJS, TailwindCSS)",
-<<<<<<< HEAD
     description:
       "Create a Web Ai With AiGroq API website using ReactJS, TailwindCSS.",
-=======
-    description: "Create a Web Ai With AiGroq API website using ReactJS, TailwindCSS.",
->>>>>>> a213b977ea6e537beb9d17938e2c375642e79fb2
     repoLink: "https://github.com/Cramouchegit/Aigroq-in-Reactjs",
     demoLink: "https://aigroq-mabuchi.vercel.app/",
   },
