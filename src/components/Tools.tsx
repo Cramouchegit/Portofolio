@@ -49,7 +49,7 @@ const Tools: FC = () => {
             <li>Postman</li>
             <li>Figma</li>
             <li>Laragon & PhpMyAdmin</li>
-            <li>Window, Linux, MacOS</li>
+            <li>Window, Linux (Ubuntu), MacOS</li>
           </ul>
         </div>
       </div>

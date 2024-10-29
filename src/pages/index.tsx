@@ -8,6 +8,7 @@ import ScrollTop from "../components/ScrollTop";
 import dynamic from "next/dynamic";
 import { Partytown } from "@builder.io/partytown/react";
 import IconSkills from "../components/IconSkills";
+import Qualification from "../components/Qualification";
 const LayoutGroup = dynamic(
   () => import("framer-motion").then((mod) => mod.LayoutGroup),
   {
@@ -64,6 +65,7 @@ const Home: FC = () => {
         <Work />
         <Tools />
         <IconSkills />
+        <Qualification  />
         <Contact />
       </LayoutGroup>
       {scrollTop && <ScrollTop />}

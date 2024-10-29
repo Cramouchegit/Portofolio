@@ -60,7 +60,7 @@ const Nav: FC = () => {
             className="border border-[#303436] rounded-md flex justify-center items-center overflow-hidden h-12 w-12"
             layout
           >
-            <AnimatePresence exitBeforeEnter>
+            <AnimatePresence mode="wait">
               {animationState === "notHovered" && (
                 <motion.figure
                   animate={{ x: 0, scale: 1, rotate: 0 }}
