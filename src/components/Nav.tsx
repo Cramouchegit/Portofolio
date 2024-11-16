@@ -131,9 +131,9 @@ const Nav: FC = () => {
         )}
       </motion.div>
       {!isTabletOrMobile && (
-        <div className="text-[#FFFFFFFF] flex items-center space-x-16 rounded-md cursor-pointer">
+        <div className="text-[#FFFFFFFF]  flex items-center space-x-16 rounded-md cursor-pointer">
           <Link
-            className="rounded-md border-4 border-sky-700 bg-sky-700 hover:text-indigo-300"
+            className="rounded-md  border-4 border-sky-700 bg-sky-700 hover:text-slate-300"
             to="work"
             activeClass="active"
             smooth={true}
@@ -142,7 +142,7 @@ const Nav: FC = () => {
             My Works
           </Link>
           <Link
-            className="rounded-md border-4 border-sky-700 bg-sky-700 hover:text-indigo-300"
+            className="rounded-md border-4 border-sky-700 bg-sky-700 hover:text-slate-300"
             to="tools"
             activeClass="active"
             smooth={true}
@@ -151,7 +151,7 @@ const Nav: FC = () => {
             Tools
           </Link>
           <Link
-            className="rounded-md border-4 border-sky-700 bg-sky-700 hover:text-indigo-300"
+            className="rounded-md border-4 border-sky-700 bg-sky-700 hover:text-slate-300"
             to="skills"
             activeClass="active"
             smooth={true}
@@ -160,7 +160,7 @@ const Nav: FC = () => {
             Skills
           </Link>
           <Link
-            className="rounded-md border-4 border-sky-700 bg-sky-700 hover:text-indigo-300"
+            className="rounded-md border-4 border-sky-700 bg-sky-700 hover:text-slate-300"
             to="contact"
             activeClass="active"
             smooth={true}
@@ -168,6 +168,16 @@ const Nav: FC = () => {
           >
             Contact
           </Link>
+          <a
+            className="rounded-full text-lg p-2 border-4 .glassmorphism_plus_roundedfull hover:text-slate-300"
+            href="/CV-Guntur.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            aria-label="CV-Guntur Alamsyah Putra"
+          >
+            Hire Me / CV
+          </a>
         </div>
       )}
       <AnimatePresence>
@@ -180,30 +190,40 @@ const Nav: FC = () => {
             <a
               onClick={() => setHamburgerState(false)}
               href="#work"
-              className="hover:border-b-4 hover:border-sky-700"
+              className="hover:border-b-4 hover:border-slate-500"
             >
               My Works
             </a>
             <a
               onClick={() => setHamburgerState(false)}
               href="#tools"
-              className="hover:border-b-4 hover:border-sky-700"
+              className="hover:border-b-4 hover:border-slate-500"
             >
               Tools
             </a>
             <a
               onClick={() => setHamburgerState(false)}
               href="#skills"
-              className="hover:border-b-4 hover:border-sky-700"
+              className="hover:border-b-4 hover:border-slate-500"
             >
               Skills
             </a>
             <a
               onClick={() => setHamburgerState(false)}
               href="#contact"
-              className="hover:border-b-4 hover:border-sky-700"
+              className="hover:border-b-4 hover:border-slate-500"
             >
               Contact
+            </a>
+            <a
+              className="rounded-full text-lg p-2 border-4 .glassmorphism_plus_roundedfull hover:text-slate-300"
+              href="/CV-Guntur.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              aria-label="CV-Guntur Alamsyah Putra"
+            >
+              Hire Me / CV
             </a>
           </motion.div>
         )}

@@ -9,6 +9,7 @@ import dynamic from "next/dynamic";
 import { Partytown } from "@builder.io/partytown/react";
 import IconSkills from "../components/IconSkills";
 import Qualification from "../components/Qualification";
+import SwipperCompany from "../components/SwipperCompany";
 const LayoutGroup = dynamic(
   () => import("framer-motion").then((mod) => mod.LayoutGroup),
   {
@@ -62,10 +63,11 @@ const Home: FC = () => {
       <LayoutGroup>
         {typeof window !== "undefined" && <DynamicNav />}
         <Picture />
+        <SwipperCompany />
         <Work />
         <Tools />
         <IconSkills />
-        <Qualification  />
+        <Qualification />
         <Contact />
       </LayoutGroup>
       {scrollTop && <ScrollTop />}

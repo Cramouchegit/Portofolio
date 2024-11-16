@@ -16,18 +16,35 @@ module.exports = {
         "bg-surface": "#242729",
       },
       dropShadow: {
-        'lg': '0 12.5px 12.5px #25ff',
-        'md': '0 12.5px 12.5px #222220',
-        '4xl': [
-            '0 35px 35px rgba(0, 0, 0, 0.25)',
-            '0 45px 65px rgba(0, 0, 0, 0.15)'
-        ]
+        lg: "0 12.5px 12.5px #25ff",
+        md: "0 12.5px 12.5px #222220",
+        "4xl": [
+          "0 35px 35px rgba(0, 0, 0, 0.25)",
+          "0 45px 65px rgba(0, 0, 0, 0.15)",
+        ],
       },
       blur: {
-        'vsm': '1.5px'
-      }
+        vsm: "1.5px",
+      },
+    },
+    keyframes: {
+      slide: {
+        "0%": { transform: "translateX(0%)" },
+        "100%": { transform: "translateX(-100%)" },
+      },
+      slideToR: {
+        "0%": { transform: "translateX(-100%)" },
+        "100%": { transform: "translateX(0%)" },
+      },
+      slideToT: {
+        "0%": { transform: "translateY(0%)" },
+        "100%": { transform: "translateY(-100%)" },
+      },
+      slideToB: {
+        "0%": { transform: "translateY(-100%)" },
+        "100%": { transform: "translateY(0%)" },
+      },
     },
   },
-  plugins: [
-  ],
+  plugins: [],
 };
