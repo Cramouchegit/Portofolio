@@ -78,6 +78,49 @@ a {
   }
 }
 
+.preview-image-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px; /* Membuat sudut gambar melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.preview-image-container:hover {
+  transform: scale(1.05); /* Membesarkan sedikit saat hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Memperbesar bayangan saat hover */
+}
+
+.preview-image {
+  width: 100%; /* Pastikan gambar sesuai dengan container */
+  height: auto;
+  display: block; /* Menghapus spasi putih di sekitar gambar */
+  object-fit: cover; /* Memastikan gambar terpotong dengan baik jika ukurannya berbeda */
+}
+
+.preview-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Overlay semi-transparan hitam */
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+.preview-image-container:hover .preview-image-overlay {
+  opacity: 1; /* Menampilkan overlay saat hover */
+}
+
 /* ::-webkit-scrollbar {
   background-color: #202324;
   color: #aba499;
